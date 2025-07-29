@@ -1,0 +1,18 @@
+{
+   "details": {
+      "finnhub api key": "",
+      "robinhood username": "",
+      "robinhood password": ""
+   },
+   "statistics": {
+      "starting value": "",
+      "last trade": "",
+      "overall percent change": "",
+      "overall current value": ""
+   },
+   "current stocks": {},
+   "trade log": {
+      "buy": {},
+      "sell": {}
+   }
+}
