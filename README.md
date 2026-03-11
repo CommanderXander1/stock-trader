@@ -1,3 +1,7 @@
-# Simple automated Python stock trader made with Yahoo Finance API, Finnhub API, and Robinhood API
+# LSTM price prediction classifier
+This model is trained on the last 2 months of intraday data for top 500 companies on NYSE. It uses several features to predict whether a certain stock will have a net gain or net loss the next day. The model was made using the Keras framework and is trained using timestep data obtained from Yahoo Finance. 
 
-A program that automatically trades stocks for you and records trades/earnings. The program indexes the NYSE over the past week using the Yahoo Finance API and finds the stocks with the most weekly/daily increase. Ability to set stock search parameters, and sell parameters. Trades automatically during trading hours using python datetime library.
+This project was originally made in an attempt to win a stock game for my Macroeconomics class, but I have learned a lot from it. This is my first project using neural networks, and I chose to learn the Keras framework for this project.
+
+# Future plans
+I added more features recently, but I still need to modify a few things before I can consider this project complete. I am also planning on adding news sentiment analysis and switching the API used for stock data to something more reliable/with more data.
